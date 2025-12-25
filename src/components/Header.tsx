@@ -13,14 +13,12 @@ export default function Header() {
       </div>
     </header>
     {/* HERO SECTION PRINCIPALE */}
-    <section className="container py-4 flex justify-between items-center sm:reverse-row ">
+    {/* <section className="container py-4 flex justify-between items-center sm:reverse-row ">
                   {/* Carte blanche contenant le formulaire de recherche */}
-                  <div className=''>
                     <AirbnbSearchPage />
-                  </div>
-                  {/* ------------------ image de fond ------------------ */}
+                  {/* ------------------ image de fond ------------------ *
                   <img src={bg} alt="Background" className="w-240 h-auto rounded-2xl" />
-    </section>
+    </section> */}
     </>
   )
 }
